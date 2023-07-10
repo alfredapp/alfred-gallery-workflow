@@ -62,7 +62,7 @@
 				<key>modifiersubtext</key>
 				<string>Narrow search to creator’s name</string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 	</dict>
