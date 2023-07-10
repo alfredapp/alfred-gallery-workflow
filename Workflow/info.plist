@@ -156,7 +156,7 @@ function show_data {
 }
 
 # Exit early if cache is recent
-[[ "$(date -r "${cache_file}" +%s)" -gt "$(date -v -4d +%s)" ]] &amp;&amp; show_data
+[[ "$(date -r "${cache_file}" +%s)" -gt "$(date -v -2d +%s)" ]] &amp;&amp; show_data
 
 # Get latest release info
 mkdir -p "${alfred_workflow_cache}"
