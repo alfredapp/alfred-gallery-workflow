@@ -82,7 +82,7 @@
 				<key>matchmode</key>
 				<integer>1</integer>
 				<key>matchstring</key>
-				<string>https:\/\/alfred\.app\/workflows\/(.+?)\/(.+?)/</string>
+				<string>https:\/\/alfred\.app\/workflows\/(.+?)\/(.+?)\/</string>
 				<key>regexcaseinsensitive</key>
 				<false/>
 				<key>regexmultiline</key>
