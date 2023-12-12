@@ -149,16 +149,12 @@
 				<string>readonly cache_file="${alfred_workflow_cache}/gallery.json"
 readonly release_id_file="${alfred_workflow_cache}/release_id.txt"
 readonly cache_repo='alfredapp/gallery-cache'
-readonly cache_age='2d'
 
 # Helper to show results and exit
 function show_data {
   &lt; "${cache_file}"
   exit 0
 }
-
-# Exit early if cache is recent
-[[ "$(date -r "${cache_file}" +%s)" -gt "$(date -v -"${cache_age}" +%s)" ]] &amp;&amp; show_data
 
 # Get latest release info
 mkdir -p "${alfred_workflow_cache}"
@@ -168,11 +164,7 @@ readonly release_id="$(osascript -l JavaScript -e 'function run(argv) { return J
 readonly download_url="$(osascript -l JavaScript -e 'function run(argv) { return JSON.parse(argv[0])["assets"][0]["browser_download_url"] }' "${latest_release}")"
 
 # Exit early if release has not changed
-if [[ "${release_id}" == "$(&lt; "${release_id_file}")" ]]
-then
-  touch "${cache_file}" # Reset cache age
-  show_data
-fi
+[[ "${release_id}" == "$(&lt; "${release_id_file}")" ]] &amp;&amp; show_data
 
 # Download and update cache
 curl --silent --location "${download_url}" | tar --directory "${alfred_workflow_cache}" --extract
