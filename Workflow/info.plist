@@ -243,11 +243,11 @@ Search workflows in the [Alfred Gallery](https://alfred.app/) via the `gallery` 
 
 ![Searching for alfredapp workflows](images/about/gallery.png)
 
-* &lt;kbd&gt;↩&lt;/kbd&gt;: Open Gallery page in default browser.
-* &lt;kbd&gt;⌃&lt;/kbd&gt;: Show tags.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Install workflow.
-* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt;: Narrow search to creator’s name.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;Y&lt;/kbd&gt; (or tap &lt;kbd&gt;⇧&lt;/kbd&gt;): Quick Look workflow’s Gallery page.</string>
+* &lt;kbd&gt;↩&lt;/kbd&gt; Open Gallery page in default browser.
+* &lt;kbd&gt;⌃&lt;/kbd&gt; Show tags.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Install workflow.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Narrow search to creator’s name.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;Y&lt;/kbd&gt; (or tap &lt;kbd&gt;⇧&lt;/kbd&gt;) Quick Look workflow’s Gallery page.</string>
 	<key>uidata</key>
 	<dict>
 		<key>1944B7E1-9267-43A6-BEC7-761A44CF1A9D</key>
@@ -310,8 +310,6 @@ Search workflows in the [Alfred Gallery](https://alfred.app/) via the `gallery` 
 			<string>gallery_search_keyword</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>2023.3</string>
 	<key>webaddress</key>
