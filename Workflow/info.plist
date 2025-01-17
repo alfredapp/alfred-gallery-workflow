@@ -312,7 +312,7 @@ Search workflows in the [Alfred Gallery](https://alfred.app/) via the `gallery` 
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2024.1</string>
+	<string>2025.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/alfredapp/alfred-gallery-workflow/</string>
 </dict>
