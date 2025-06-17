@@ -253,7 +253,7 @@ Search workflows in the [Alfred Gallery](https://alfred.app/) via the `gallery` 
 * &lt;kbd&gt;⌃&lt;/kbd&gt; Show tags.
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Install workflow.
 * &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Narrow search to creator’s name.
-* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;Y&lt;/kbd&gt; (or tap &lt;kbd&gt;⇧&lt;/kbd&gt;) Quick Look workflow’s Gallery page.</string>
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;Y&lt;/kbd&gt; [Quick Look](https://www.alfredapp.com/help/features/previews/) workflow’s Gallery page.</string>
 	<key>uidata</key>
 	<dict>
 		<key>1944B7E1-9267-43A6-BEC7-761A44CF1A9D</key>
