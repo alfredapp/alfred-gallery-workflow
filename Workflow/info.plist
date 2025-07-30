@@ -32,6 +32,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>BE50FB93-04A3-41AF-A140-A69DC59F8469</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5D0B9D24-122E-49EC-8C7B-72AAE1598A5A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C1132036-7887-4A07-931C-9B346E04D969</key>
 		<array>
 			<dict>
@@ -51,6 +64,16 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BE50FB93-04A3-41AF-A140-A69DC59F8469</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Copy link</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -204,6 +227,46 @@ show_data</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Link {query} copied.</string>
+				<key>title</key>
+				<string>Alfred Gallery Workflow</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>5D0B9D24-122E-49EC-8C7B-72AAE1598A5A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>BE50FB93-04A3-41AF-A140-A69DC59F8469</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>externaltriggerid</key>
 				<string>show_list</string>
 				<key>passinputasargument</key>
@@ -261,7 +324,14 @@ Search workflows in the [Alfred Gallery](https://alfred.app/) via the `gallery` 
 			<key>xpos</key>
 			<real>260</real>
 			<key>ypos</key>
-			<real>270</real>
+			<real>405</real>
+		</dict>
+		<key>5D0B9D24-122E-49EC-8C7B-72AAE1598A5A</key>
+		<dict>
+			<key>xpos</key>
+			<real>595</real>
+			<key>ypos</key>
+			<real>240</real>
 		</dict>
 		<key>7094BDA6-222F-4626-AC67-26A7B201F91C</key>
 		<dict>
@@ -277,6 +347,13 @@ Search workflows in the [Alfred Gallery](https://alfred.app/) via the `gallery` 
 			<key>ypos</key>
 			<real>105</real>
 		</dict>
+		<key>BE50FB93-04A3-41AF-A140-A69DC59F8469</key>
+		<dict>
+			<key>xpos</key>
+			<real>380</real>
+			<key>ypos</key>
+			<real>240</real>
+		</dict>
 		<key>C1132036-7887-4A07-931C-9B346E04D969</key>
 		<dict>
 			<key>xpos</key>
@@ -289,7 +366,7 @@ Search workflows in the [Alfred Gallery](https://alfred.app/) via the `gallery` 
 			<key>xpos</key>
 			<real>380</real>
 			<key>ypos</key>
-			<real>240</real>
+			<real>375</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
