@@ -10,8 +10,9 @@ Search workflows in the [Alfred Gallery](https://alfred.app/) via the `gallery` 
 
 ![Searching for alfredapp workflows](Workflow/images/about/gallery.png)
 
-* <kbd>↩&#xFE0E;</kbd> Open Gallery page in default browser.
+* <kbd>↩</kbd> Open workflow’s Gallery page in default browser.
 * <kbd>⌃</kbd> Show tags.
-* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Install workflow.
-* <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd> Narrow search to creator’s name.
-* <kbd>⌘</kbd><kbd>Y</kbd> (or tap <kbd>⇧</kbd>) Quick Look workflow’s Gallery page.
+* <kbd>⌘</kbd><kbd>↩</kbd> Install workflow.
+* <kbd>⌥</kbd><kbd>↩</kbd> Narrow search to creator’s name.
+* <kbd>⇧</kbd><kbd>↩</kbd> Paste link to workflow’s Gallery page.
+* <kbd>⌘</kbd><kbd>Y</kbd> [Quick Look](https://www.alfredapp.com/help/features/previews/) workflow’s Gallery page.
